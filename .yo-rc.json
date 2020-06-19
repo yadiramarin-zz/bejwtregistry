@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "be.jwtregistry"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "microservice",
+    "baseName": "bejwtregistry",
+    "packageName": "be.jwtregistry",
+    "packageFolder": "be/jwtregistry",
+    "serverPort": "8083",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTUzNjg1ZGU2YzViOTQxYTc0ZjFhYTQ1NGY3YjI2MzhmNDE2Nzg2MTgyYzJkMjBiZWIyNDUyZWMzZWQ3ZWQ4ZDNhMjU1YjQwNGI5OWMzMWFkODgyMjFiYjM1ZDc4ODJmNTFiMjFhMDY5ZGNlY2FlYjE1YjQ5YjNkNWIwNDRlMTY=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1592583868567,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

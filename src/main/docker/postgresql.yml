@@ -1,0 +1,12 @@
+version: '2'
+services:
+  bejwtregistry-postgresql:
+    image: postgres:12.3
+    # volumes:
+    #     - ~/volumes/jhipster/bejwtregistry/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=bejwtregistry
+      - POSTGRES_PASSWORD=
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432
